@@ -1,0 +1,55 @@
+#header {
+    display: flex;
+    height: 67vh;
+    background: url("../img/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header__content {
+    margin: auto;
+    text-align: center;
+}
+
+.welcome-heading {
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--blue-c);
+}
+
+.welcome-heading:after {
+    content: "";
+    margin: 5px auto;
+    display: block;
+    width: 70px;
+    height: 1px;
+    background-color: var(--blue-c);
+}
+
+.welcome-subheading {
+    margin-bottom: 32px;
+    color: var(--dark-grey-c);
+}
+
+.fa-circle {
+    margin: 0 5px;
+    vertical-align: middle;
+    font-size: 5px;
+    color: var(--blue-c);
+}
+
+.button {
+    padding: 10px 20px;
+    border: 1px solid var(--blue-c);
+    background-color: transparent;
+    text-transform: uppercase;
+    color: var(--dark-grey-c);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--blue-c);
+    color: white;
+}
