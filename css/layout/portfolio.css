@@ -1,12 +1,13 @@
 #portfolio {
-    padding: 120px 15px;
+    padding: 120px 0;
     background-color: var(--grey-c);
 }
 
 .portfolio__container {
-    margin-top: 70px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
 }
 
 .image__container {
@@ -67,4 +68,29 @@
 }
 .photo-12 {
     background-image: url("../../img/portfolio/photo-12.jpg");
+}
+
+@media (min-width: 768px) {
+    .portfolio__container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .image__container {
+        width: 50%;
+        height: 250px;
+    }
+}
+
+@media (min-width: 992px) {
+    .image__container {
+        width: 25%;
+        height: 150px;
+    }
+}
+@media (min-width: 1200px) {
+    .image__container {
+        width: 25%;
+        height: 190px;
+    }
 }

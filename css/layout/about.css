@@ -1,9 +1,20 @@
 #about {
-    padding: 120px 20px;
+    padding: 120px 0;
+}
+
+.about__container {
+    max-width: 700px;
 }
 
 .about__image {
     margin-top: 60px;
     width: 50%;
+    max-width: 500px;
     border-radius: 50%;
+}
+
+@media (min-width: 480px) {
+    .about__image {
+        width: 80%;
+    }
 }

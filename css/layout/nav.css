@@ -1,4 +1,4 @@
-.menu {
+nav {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,9 +17,8 @@
 }
 
 .menu__element--mobile {
-    margin-left: auto;
     display: block;
-    padding: 0 20px;
+    text-align: right;
     font-size: 1.5rem;
     color: white;
 }

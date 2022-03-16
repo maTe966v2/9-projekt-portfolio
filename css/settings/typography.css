@@ -29,6 +29,7 @@
 
 .paragraph {
     margin: 30px 0;
+
     line-height: 1.4em;
     color: var(--light-grey-c);
 }

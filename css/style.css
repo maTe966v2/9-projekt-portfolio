@@ -2,6 +2,7 @@
 @import "./settings/variables.css";
 @import "./settings/typography.css";
 @import "./settings/fontawesome.css";
+@import "./settings/wrapper.css";
 
 @import "./layout/header.css";
 @import "./layout/nav.css";
@@ -34,8 +35,5 @@ body {
 
 .button:hover {
     background-color: var(--blue-c);
-}
-
-.button:hover a {
     color: white;
 }
