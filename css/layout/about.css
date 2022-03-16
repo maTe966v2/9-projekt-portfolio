@@ -1,0 +1,10 @@
+#about {
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.about__image {
+    margin-top: 60px;
+    width: 80%;
+    border-radius: 50%;
+}

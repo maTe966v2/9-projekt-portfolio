@@ -12,27 +12,6 @@
     text-align: center;
 }
 
-.welcome-heading {
-    font-size: 3em;
-    text-align: center;
-    text-transform: uppercase;
-    color: var(--blue-c);
-}
-
-.welcome-heading:after {
-    content: "";
-    margin: 5px auto;
-    display: block;
-    width: 70px;
-    height: 1px;
-    background-color: var(--blue-c);
-}
-
-.welcome-subheading {
-    margin-bottom: 32px;
-    color: var(--dark-grey-c);
-}
-
 .fa-circle {
     margin: 0 5px;
     vertical-align: middle;
