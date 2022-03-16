@@ -1,6 +1,5 @@
 .welcome-heading {
     font-size: 3.5rem;
-    text-align: center;
     text-transform: uppercase;
     color: var(--blue-c);
 }
@@ -22,6 +21,7 @@
 }
 
 .section-heading {
+    font-size: 1.9em;
     text-transform: uppercase;
     font-weight: 400;
     color: var(--dark-grey-c);

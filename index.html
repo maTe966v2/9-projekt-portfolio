@@ -38,7 +38,7 @@
                 <li class="menu__element">
                     <a href="#portfolio">Portfolio</a>
                 </li>
-                <li class="menu__element"><a href="#kontakt">Kontakt</a></li>
+                <li class="menu__element"><a href="#contact">Kontakt</a></li>
             </ul>
         </nav>
         <section id="about">
@@ -65,62 +65,52 @@
         <section id="portfolio">
             <h2 class="section-heading">Portfolio</h2>
             <div class="portfolio__container">
-                <img
-                    src="./img/portfolio/photo-1.jpg"
-                    alt="Komputer"
-                    class="portfolio__image"
-                />
-                <img
-                    src="./img/portfolio/photo-2.jpg"
-                    alt="Żarówki"
-                    class="portfolio__image"
-                /><img
-                    src="./img/portfolio/photo-3.jpg"
-                    alt="Motocykl"
-                    class="portfolio__image"
-                />
-                <img
-                    src="./img/portfolio/photo-4.jpg"
-                    alt="Borówki"
-                    class="portfolio__image"
-                /><img
-                    src="./img/portfolio/photo-5.jpg"
-                    alt="Kredki"
-                    class="portfolio__image"
-                />
-                <img
-                    src="./img/portfolio/photo-6.jpg"
-                    alt="Laptop"
-                    class="portfolio__image"
-                /><img
-                    src="./img/portfolio/photo-7.jpg"
-                    alt="Budynek"
-                    class="portfolio__image"
-                />
-                <img
-                    src="./img/portfolio/photo-8.jpg"
-                    alt="Szklane pojemniki"
-                    class="portfolio__image"
-                /><img
-                    src="./img/portfolio/photo-9.jpg"
-                    alt="Kawa"
-                    class="portfolio__image"
-                />
-                <img
-                    src="./img/portfolio/photo-10.jpg"
-                    alt="Ołówki"
-                    class="portfolio__image"
-                /><img
-                    src="./img/portfolio/photo-11.jpg"
-                    alt="Niebieska farba"
-                    class="portfolio__image"
-                />
-                <img
-                    src="./img/portfolio/photo-12.jpg"
-                    alt="Garbus"
-                    class="portfolio__image"
-                />
+                <div class="image__container photo-1"></div>
+                <div class="image__container photo-2"></div>
+                <div class="image__container photo-3"></div>
+                <div class="image__container photo-4"></div>
+                <div class="image__container photo-5"></div>
+                <div class="image__container photo-6"></div>
+                <div class="image__container photo-7"></div>
+                <div class="image__container photo-8"></div>
+                <div class="image__container photo-9"></div>
+                <div class="image__container photo-10"></div>
+                <div class="image__container photo-11"></div>
+                <div class="image__container photo-12"></div>
             </div>
         </section>
+        <section id="contact">
+            <h2 class="section-heading">Kontakt</h2>
+            <form class="contact__form">
+                <input type="text" placeholder="Imię" class="text-input" />
+                <input type="text" placeholder="Email" class="text-input" />
+                <textarea
+                    name="message"
+                    id="message"
+                    placeholder="Wiadomość"
+                    class="text-input"
+                ></textarea>
+                <input type="submit" value="Wyślij wiadomość" class="button" />
+            </form>
+            <div class="socials">
+                <a href="https://www.facebook.com/matszwe">
+                    <i class="fa-brands fa-facebook-square"></i>
+                </a>
+                <a href="https://github.com/mate966">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://mateuszszweda.pl/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mateuszszweda/">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </section>
+        <footer id="footer">
+            <p class="paragraph">
+                Copyright &copy; Akademia 108 - Szkoła Programowania
+            </p>
+        </footer>
     </body>
 </html>

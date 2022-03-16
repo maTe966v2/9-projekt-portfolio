@@ -7,6 +7,8 @@
 @import "./layout/nav.css";
 @import "./layout/about.css";
 @import "./layout/portfolio.css";
+@import "./layout/contact.css";
+@import "./layout/footer.css";
 
 * {
     margin: 0;
@@ -15,5 +17,25 @@
 }
 
 body {
+    text-align: center;
     font-family: "Open Sans", sans-serif;
+}
+
+.button {
+    margin: 10px auto;
+    padding: 15px 20px;
+    max-width: 200px;
+    border: 1px solid var(--blue-c);
+    background-color: transparent;
+    text-transform: uppercase;
+    color: var(--dark-grey-c);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--blue-c);
+}
+
+.button:hover a {
+    color: white;
 }

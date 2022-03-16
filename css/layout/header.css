@@ -1,7 +1,7 @@
 #header {
     display: flex;
     height: 67vh;
-    background: url("../img/header.jpg");
+    background: url("../../img/header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -9,7 +9,6 @@
 
 .header__content {
     margin: auto;
-    text-align: center;
 }
 
 .fa-circle {
@@ -17,18 +16,4 @@
     vertical-align: middle;
     font-size: 5px;
     color: var(--blue-c);
-}
-
-.button {
-    padding: 10px 20px;
-    border: 1px solid var(--blue-c);
-    background-color: transparent;
-    text-transform: uppercase;
-    color: var(--dark-grey-c);
-    cursor: pointer;
-}
-
-.button:hover {
-    background-color: var(--blue-c);
-    color: white;
 }
